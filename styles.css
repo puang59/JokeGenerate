@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+body {
+    background-color: black;
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLmFwcDNkd2FsbHBhcGVyaGQuZnVubnl3YWxscGFwZXJoZF9zY3JlZW5fNV8xNTY3MDIzOTcwXzA3Ng/screen-5.jpg?fakeurl=1&type=.jpg);
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.container {
+    color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(58, 58, 58);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow:  2px 2px 5px rgb(0, 0, 0);
+}
+button { 
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 1rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+#warn { 
+    margin-top: 1rem;
+}
